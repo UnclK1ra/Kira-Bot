@@ -11,7 +11,7 @@ const FOOTER = "<blockquote>𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐊𝐈𝐑�
 
 // توكن تليجرام — من متغير البيئة TELEGRAM_BOT_TOKEN (أو اكتبه هنا بين العلامتين)
 const TELEGRAM_TOKEN = process.env.TELEGRAM_BOT_TOKEN ||
-  "8730836379:AAGAlGB_4x9wJFdXaAM4bKzXlA_5tOzPIp8";
+  "حط توكن بوتك هنا";
 
 async function sub(client) {
   global.subBots = new SubBots(client.commandSystem);
