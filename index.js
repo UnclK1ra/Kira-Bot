@@ -14,20 +14,12 @@ const { startWeb } = await optional("./system/web.js");
 
 /* =========== Client ========== */
 const client = new Client({
-  phoneNumber: "201014264606", // Bot number
+  phoneNumber: "رقم البوت", // Bot number
   prefix: [".", "/", "!"],
   fromMe: false, 
   owners: [
     // Owner 1
-    { name: "Kira", lid: "93386044342517@lid", jid: "201019803827@s.whatsapp.net" },
-    // Owner 2
-    { name: "Hoss", lid: "65309943832722@lid", jid: "201011738424@s.whatsapp.net" },
-    // Owner 3
-    { name: "Light", lid: "131035778040038@lid", jid: "201289784262@s.whatsapp.net" },
-    // Owner 4
-    { name: "HOSS2", lid: "227775587831918@lid", jid: "201206726663@s.whatsapp.net" },
-    // Owner 5
-    { name: "HOSS3", lid: "32166513449713@lid", jid: "201286476375@s.whatsapp.net" },
+    { name: "اسمك", lid: "الايدي بتاعك@lid", jid: "رقمك@s.whatsapp.net" },
   ],
   settings: { noWelcome: false },
   commandsPath: "./plugins"
