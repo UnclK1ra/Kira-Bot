@@ -1,7 +1,7 @@
 {
 "name": "Ryuk AI",
 "version": "2.0.0",
-"description": "Simple WhatsApp bot, Modified by VENi - youssefv",
+"description": "Simple WhatsApp bot, Modified by RYUK - UnclKira",
 "main": "index.js",
 "type": "module",
 "scripts": {
@@ -9,9 +9,9 @@
 },
 "keywords": [
 "whatsapp-bot",
-"pomni-ai"
+"ryuk-ai"
 ],
-"author": "VENi - youssefv",
+"author": "RYUK - UnclKira",
 "license": "MIT",
 "dependencies": {
 "@whiskeysockets/baileys": "7.0.0-rc.9",
